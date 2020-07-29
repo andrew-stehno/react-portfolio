@@ -6,9 +6,9 @@ const navbar = () => {
         <div className={classes.NavBorder}>
             <h1 className={classes.NavigationText}>Andrew Stehno</h1>
             <nav className={classes.NavLinks}>
-                <a href="#top">About Me</a> | 
-                <a href="#top">Portfolio</a> | 
-                <a href="#top">Contact</a> 
+                <a href="/">About Me</a> | 
+                <a href="/portfolio">Portfolio</a> | 
+                <a href="/contact">Contact</a> 
             </nav>
         </div>
     );
