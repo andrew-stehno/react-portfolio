@@ -2,19 +2,11 @@
     color: red;
     font-weight: bold;
     float: left;
+    margin-left: 20px;
 }
 
 .NavLinks {
     float: right;
     margin-top: 30px;
-}
-
-.NavBorder {
-    border: 3px, solid black;
-}
-
-@media (max-width: 375px) {
-    .Navlinks {
-        float: left;
-    }
+    margin-right: 20px;
 }
