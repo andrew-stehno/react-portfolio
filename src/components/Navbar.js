@@ -3,7 +3,7 @@ import classes from "./Navbar.module.css";
 
 const navbar = () => {
   return (
-    <div>
+    <div className={classes.NavBorder}>
         <h1 className={classes.NavigationText}>Andrew Stehno</h1>
         <nav className={classes.NavLinks}>
           <a href="/">Home</a> |

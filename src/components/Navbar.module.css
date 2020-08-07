@@ -1,12 +1,14 @@
 .NavigationText {
     color: red;
     font-weight: bold;
-    float: left;
     margin-left: 20px;
 }
 
 .NavLinks {
-    float: right;
     margin-top: 30px;
     margin-right: 20px;
+}
+
+.NavBorder {
+    border-bottom: solid, black, 4px;
 }
