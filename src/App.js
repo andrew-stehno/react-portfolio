@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from "./pages/Home"
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
       <div>
         <Router>
           <header>
-            <Navbar/>
+            <Navbar />
           </header>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -24,6 +25,9 @@ class App extends Component {
             <Route exact path="/contact" component={Contact} />
             <Route component={NoMatch} />
           </Switch>
+          <footer>
+            <Footer />
+          </footer>
         </Router>
       </div>
     );
