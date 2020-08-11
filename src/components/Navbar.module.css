@@ -1,5 +1,6 @@
 .Nav {
     overflow: hidden;
+    border-bottom: 3px solid black;
 }
 
 .NavigationText {
