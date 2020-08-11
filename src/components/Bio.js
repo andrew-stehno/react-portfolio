@@ -3,8 +3,8 @@ import classes from "./Bio.module.css";
 
 const Bio = () => {
   return (
-    <div className={classes.Paragraph}>
-      <p>
+    <div>
+      <p className={classes.Paragraph}>
         I am a Full Stack Web Developer with a background in communication and
         training, which allows me to better understand the needs of customers,
         and to coordinate tasks within a group setting. I’ve earned a
