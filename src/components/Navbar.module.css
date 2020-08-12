@@ -25,3 +25,14 @@ li {
     display: inline;
     padding: 12px;
 }
+
+@media (min-width: 500px) {
+    .NavLinks {
+        margin: 0;
+        display: felx;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+}
+
